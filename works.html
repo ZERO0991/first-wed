@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>作品 | 林见川</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">L</span>
+          <span>
+            <strong>林见川</strong>
+            <small>个人作品集 / 知识分享</small>
+          </span>
+        </a>
+        <nav class="site-nav" aria-label="主导航">
+          <a href="index.html">首页</a>
+          <a href="about.html">关于我</a>
+          <a href="works.html" class="active">作品</a>
+          <a href="post.html">文章</a>
+          <a href="contact.html">联系</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-title">
+        <div class="container">
+          <p class="eyebrow">Work</p>
+          <h1>作品与项目展示页</h1>
+          <p class="lead">这里用于集中展示个人创作、案例和可供合作参考的内容。</p>
+        </div>
+      </section>
+
+      <section class="section" data-works-page>
+        <div class="container">
+          <div class="filter-bar">
+            <input class="search-input" type="search" placeholder="搜索作品关键词" aria-label="搜索作品" />
+            <button class="filter-chip active" data-tag="all" type="button">全部</button>
+            <button class="filter-chip" data-tag="site" type="button">网站</button>
+            <button class="filter-chip" data-tag="brand" type="button">品牌</button>
+            <button class="filter-chip" data-tag="content" type="button">内容</button>
+          </div>
+          <div class="portfolio-list">
+            <article class="portfolio-card portfolio-item" data-tags="site brand">
+              <div class="portfolio-visual visual-a"></div>
+              <div class="portfolio-copy">
+                <p class="meta">网站 / 品牌</p>
+                <h3>个人品牌官网重构</h3>
+                <p>负责信息架构、页面结构与视觉表达，让个人站更适合介绍作品和接单。</p>
+              </div>
+            </article>
+            <article class="portfolio-card portfolio-item" data-tags="content">
+              <div class="portfolio-visual visual-b"></div>
+              <div class="portfolio-copy">
+                <p class="meta">内容 / 文章</p>
+                <h3>长文写作系列</h3>
+                <p>将复杂思考拆成系列文章，适合用于知识分享与个人IP积累。</p>
+              </div>
+            </article>
+            <article class="portfolio-card portfolio-item" data-tags="brand">
+              <div class="portfolio-visual visual-a"></div>
+              <div class="portfolio-copy">
+                <p class="meta">品牌 / 视觉</p>
+                <h3>品牌视觉手册</h3>
+                <p>从色彩、字体到版式规范，帮助个人品牌建立更统一的辨识度。</p>
+              </div>
+            </article>
+            <article class="portfolio-card portfolio-item" data-tags="site content">
+              <div class="portfolio-visual visual-b"></div>
+              <div class="portfolio-copy">
+                <p class="meta">网站 / 内容</p>
+                <h3>轻量内容发布站</h3>
+                <p>面向小团队和个人创作者，提供简洁、高效的内容展示与更新体验。</p>
+              </div>
+            </article>
+          </div>
+          <div class="pagination"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <strong>林见川</strong>
+          <p>让想法有结构，让作品有辨识度。</p>
+        </div>
+        <div>
+          <a href="mailto:hello@linjianchuan.com">hello@linjianchuan.com</a>
+          <p>微信：linjianchuan</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

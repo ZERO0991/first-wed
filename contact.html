@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>联系 | 林见川</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">L</span>
+          <span>
+            <strong>林见川</strong>
+            <small>个人作品集 / 知识分享</small>
+          </span>
+        </a>
+        <nav class="site-nav" aria-label="主导航">
+          <a href="index.html">首页</a>
+          <a href="about.html">关于我</a>
+          <a href="works.html">作品</a>
+          <a href="post.html">文章</a>
+          <a href="contact.html" class="active">联系</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-title">
+        <div class="container">
+          <p class="eyebrow">Contact</p>
+          <h1>欢迎与我交流合作、咨询与建议。</h1>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container about-grid">
+          <form class="contact-card form-grid" data-contact-form>
+            <label>
+              姓名
+              <input type="text" name="name" placeholder="请输入您的姓名" required />
+            </label>
+            <label>
+              邮箱
+              <input type="email" name="email" placeholder="请输入您的邮箱" required />
+            </label>
+            <label>
+              需求类型
+              <select name="type">
+                <option>作品集咨询</option>
+                <option>网站搭建</option>
+                <option>内容合作</option>
+                <option>其他</option>
+              </select>
+            </label>
+            <label>
+              留言内容
+              <textarea name="message" placeholder="简单说明你的需求或想法" required></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">提交留言</button>
+            <p class="form-status" aria-live="polite"></p>
+          </form>
+          <aside class="contact-card">
+            <h3>联系方式</h3>
+            <div class="contact-list">
+              <p><strong>邮箱</strong><br /><a href="mailto:hello@linjianchuan.com">hello@linjianchuan.com</a></p>
+              <p><strong>微信</strong><br />linjianchuan</p>
+              <p><strong>社交</strong><br /><a href="#">微博</a> · <a href="#">公众号</a> · <a href="#">小红书</a></p>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <strong>林见川</strong>
+          <p>让想法有结构，让作品有辨识度。</p>
+        </div>
+        <div>
+          <a href="mailto:hello@linjianchuan.com">hello@linjianchuan.com</a>
+          <p>微信：linjianchuan</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
